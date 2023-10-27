@@ -24,7 +24,7 @@ const Banner = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 5000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -36,11 +36,15 @@ const Banner = () => {
         className="mySwiper">
         <SwiperSlide>
           <img
+            className=""
             src={
               "https://i.ibb.co/NTXbxKx/brand-new-shiny-black-retro-chopper-is-parked-brick-building.jpg"
             }
             alt=""
           />
+          {/* <div className="slider-div">
+            <div className="slider-img"></div>
+          </div> */}
         </SwiperSlide>
         <SwiperSlide>
           <img

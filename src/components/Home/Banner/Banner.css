@@ -21,6 +21,18 @@ body {
   height: 100vh;
 }
 
+.slider-div {
+  height: 100vh;
+  width: 100%;
+}
+.slider-img {
+  background: url("https://i.ibb.co/NTXbxKx/brand-new-shiny-black-retro-chopper-is-parked-brick-building.jpg")
+    no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;

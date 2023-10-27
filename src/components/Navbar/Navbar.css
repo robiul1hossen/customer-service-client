@@ -86,7 +86,7 @@ ul.our-primary-menu li:hover ul {
   padding: 10px 30px;
   font-size: 18px;
 }
-body .btn-primary::after {
+.btn-primary::after {
   content: "";
   left: 0;
   top: 0;
@@ -99,7 +99,7 @@ body .btn-primary::after {
   transition: 0.5s;
 }
 
-body .btn-primary:hover::after {
+.btn-primary:hover::after {
   width: 100%;
 }
 
