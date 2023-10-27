@@ -1,0 +1,169 @@
+img {
+  max-width: 100%;
+}
+.graybg {
+  background-color: #f9fafb;
+}
+
+.my-header .container-fluid,
+.slider-section .container-fluid {
+  max-width: 1480px;
+}
+.my-header {
+  background: #fff;
+}
+
+.header-search {
+  width: 50px;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 20px;
+  border-right: 1px solid #111;
+}
+
+.header-call {
+  clear: both;
+  margin-right: 30px;
+}
+
+.header-call-icon {
+  float: left;
+  margin-right: 20px;
+  align-items: center;
+  color: #e73a3e;
+  font-size: 30px;
+}
+
+.header-call-info {
+  float: right;
+}
+.header-call-info a {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #111;
+}
+
+.our-primary-menu {
+  margin-left: auto;
+}
+
+ul.our-primary-menu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #111;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+ul.our-primary-menu li {
+  position: relative;
+}
+ul.our-primary-menu li ul {
+  list-style: none;
+  position: absolute;
+  top: 160%;
+  left: 0;
+  background: #fafafa;
+  padding: 0;
+  width: 160px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+ul.our-primary-menu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-primary {
+  background-color: #e73a3e !important;
+  border-color: #e73a3e;
+  position: relative;
+  z-index: 1;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+body .btn-primary::after {
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: #111;
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+body .btn-primary:hover::after {
+  width: 100%;
+}
+
+.slider-content-wrape {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.slider-section {
+  background: url("https://i.ibb.co/Z67fmCF/main-banner2.jpg") no-repeat center
+    center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.finix-text h6 {
+  color: #e73c3e;
+  font-weight: 400;
+}
+.finix-text h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: #111;
+}
+.finix-text p {
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-social {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header-social ul {
+  list-style: none;
+  margin-left: 0;
+}
+.header-social ul li span {
+  margin-right: 64px;
+  display: inline-block;
+  position: relative;
+}
+.header-social ul li span::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 30px;
+  background: #111;
+  top: 50%;
+  left: 90px;
+}
+.header-social ul li a {
+  padding: 0 10px;
+  color: #111;
+}
+.header-social ul li:hover a {
+  color: #e73c3e;
+  font-size: 30px;
+}
+
+.claint-logo {
+  border: 1px solid #ddd;
+}
