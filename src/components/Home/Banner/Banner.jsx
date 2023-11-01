@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "./Banner.css";
+import AboutUs from "../../AboutUs/AboutUs";
 
 const Banner = () => {
   const progressCircle = useRef(null);
@@ -49,7 +50,7 @@ const Banner = () => {
         <SwiperSlide>
           <img
             src={
-              "https://i.ibb.co/kS7G2sq/photo-custom-made-retro-motorcycle-against-skyscraper.jpg"
+              "https://i.ibb.co/r2DsDTF/harley-davidson-HYj-J1-AZnqw-unsplash.jpg"
             }
             alt=""
           />
@@ -76,6 +77,35 @@ const Banner = () => {
           <span ref={progressContent}></span>
         </div>
       </Swiper>
+      <div className="flex justify-between my-10 gap-x-10 relative">
+        <div className="cursor-pointer service-img service-img1 ">
+          <div className="text-white ml-6 z-20 ">
+            <p className="font-semibold text-2xl">Motorcycle</p>
+            <h2 className="font-semibold text-3xl bg-[rgba(99,102,241,0.5)] text-h2 px-3 py-1 rounded-lg">
+              Custom
+            </h2>
+          </div>
+        </div>
+        <div className="cursor-pointer service-img service-img2 ">
+          {" "}
+          <div className="text-white ml-6 z-20 ">
+            <p className="font-semibold text-2xl">Motor Repair</p>
+            <h2 className="font-semibold text-3xl bg-[rgba(99,102,241,0.5)] text-h2 px-3 py-1 rounded-lg">
+              Services
+            </h2>
+          </div>
+        </div>
+        <div className="cursor-pointer service-img service-img3 ">
+          {" "}
+          <div className="text-white ml-6 z-20 ">
+            <p className="font-semibold text-2xl">Online</p>
+            <h2 className="font-semibold text-3xl bg-[rgba(99,102,241,0.5)] text-h2 px-3 pr-6 py-1 rounded-lg">
+              Store
+            </h2>
+          </div>
+        </div>
+      </div>
+      <AboutUs></AboutUs>
     </>
   );
 };
